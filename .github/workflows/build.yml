@@ -39,8 +39,8 @@ jobs:
 
       - name: Tag & Build the Docker image
         run: |
-          docker tag netflix atanubiswas/netflix:latest
           docker build --build-arg TMDB_V3_API_KEY=63507295ffceb58729d0e7d1d0ddc6fc -t netflix . 
+          docker tag netflix atanubiswas/netflix:latest
 
       - name: Push the Docker image
         run: docker push atanubiswas/netflix:latest
