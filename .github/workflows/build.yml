@@ -38,7 +38,7 @@ jobs:
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
 
       - name: Build the Docker image
-        run: docker build --build-arg TMDB_V3_API_KEY=63507295ffceb58729d0e7d1d0ddc6fc -t latest .
+        run: docker build --build-arg TMDB_V3_API_KEY=63507295ffceb58729d0e7d1d0ddc6fc .
 
       - name: Push the Docker image
         run: docker push atanubiswas/netflix:latest
