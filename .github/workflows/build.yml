@@ -34,11 +34,11 @@ jobs:
           sudo apt-get install trivy -y
           #command to scan files
           trivy fs .
-    - name: Log in to Docker Hub
-      run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
+      - name: Log in to Docker Hub
+        run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKERHUB_USERNAME }}" --password-stdin
 
-    - name: Build the Docker image
-      run: docker build -t atanubiswas/netflex:latest .
+      - name: Build the Docker image
+        run: docker build -t atanubiswas/netflex:latest .
 
-    - name: Push the Docker image
-      run: docker push atanubiswas/netflex:latest
+      - name: Push the Docker image
+        run: docker push atanubiswas/netflex:latest
