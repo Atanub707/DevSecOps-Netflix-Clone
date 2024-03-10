@@ -39,10 +39,10 @@ jobs:
 
       - name: Tag & Build the Docker image
         run: |
-          docker build -t atanubiswas/netflix:$(echo $GITHUB_SHA | cut -c1-7) .
+          docker build --build-arg TMDB_V3_API_KEY=63507295ffceb58729d0e7d1d0ddc6fc -t atanubiswas/netflix:$(echo $GITHUB_SHA | cut -c1-7) . 
           docker tag atanubiswas/netflix:$(echo $GITHUB_SHA | cut -c1-7) atanubiswas/netflix:latest
+
       - name: Push the Docker image
-        run: |
-          docker push atanubiswas/netflix:$(echo $GITHUB_SHA | cut -c1-7)
+        run: docker push atanubiswas/netflix:$(echo $GITHUB_SHA | cut -c1-7)
         env:
           DOCKER_CLI_ACI: true
