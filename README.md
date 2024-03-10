@@ -1,10 +1,15 @@
 # Deploy Netflix Clone on Cloud using GitHub Action - DevSecOps Project!
+![DevSecOps Netflix (1)](https://github.com/Atanub707/DevSecOps-Netflix-Clone/assets/103525450/69189b4e-06c7-4904-8880-e7f40b82e038)
+![Screenshot (336)](https://github.com/Atanub707/DevSecOps-Netflix-Clone/assets/103525450/79a42ffb-07f9-4f34-bcd0-3e7ec6221e81)
+![Screenshot (329)](https://github.com/Atanub707/DevSecOps-Netflix-Clone/assets/103525450/c67b8063-107a-4800-92f1-f92f8694804c)
+![Screenshot (331)](https://github.com/Atanub707/DevSecOps-Netflix-Clone/assets/103525450/dc6276d1-8c8d-47a9-b11c-ff085c43d8bb)
 
-![DevSecOps Project Workflow (2)](https://github.com/Atanub707/DevSecOps-Netflix-Clone/assets/103525450/d70dec07-ff60-4141-acd0-7abcec70fbbc)
-![Screenshot (318)](https://github.com/Atanub707/DevSecOps-Netflix-Clone/assets/103525450/65881e9f-de0b-441a-8a9e-6e9e6cffc3e2)
-![Screenshot (320)](https://github.com/Atanub707/DevSecOps-Netflix-Clone/assets/103525450/46f96d6e-eb64-4a4a-ae53-722bdfc363d1)
 
+## Repo 2 Manifest File
+https://github.com/Atanub707/Tetris-Manifest (Renamed In Future Update)
 
+## Docker Hub Netflix Clone Image
+https://hub.docker.com/repository/docker/atanubiswas/netflix/general
 
 ## Table of Contents
 # Prerequests
